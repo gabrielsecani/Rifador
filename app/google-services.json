@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "761412249943",
+    "project_id": "firebase-rifador"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761412249943:android:f37935c4b182a9da",
+        "android_client_info": {
+          "package_name": "br.com.gltr.rifador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761412249943-0m96aukes9u57rq8sh34utrtp80vqg3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gltr.rifador",
+            "certificate_hash": "4B9189578F79F71919D204DCBF328F7C3FCD5593"
+          }
+        },
+        {
+          "client_id": "761412249943-eec5uslaeggmevr9aa5fuuqt2f5hp8mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaAvLX3x2iaOAmAvrhDssT3wzp6PPnsZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

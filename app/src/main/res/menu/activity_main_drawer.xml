@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:visible="false">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Google Account">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_in"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/common_signin_button_text"/>
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/googleg_color"
+                android:title="@string/sign_out"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_disconnect"
+                android:icon="@drawable/googleg_color"
+                android:title="Disconnect"
+                android:visible="false"/>
+        </menu>
+    </item>
+
+</menu>
